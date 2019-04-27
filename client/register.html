@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>ChainLand</title>
+<link rel="stylesheet" href="../css/create.css">
+</head>
+<body>
+<div class="create">
+<h1>Register User</h1>
+</div>
+<div class="form">
+<form id="form" action="register.php" method="post">
+<center>
+<input type="text" name="fname" placeholder="ENTER FIRST NAME" class="form-control" required=><br><br>
+<input type="text" name="lname" placeholder="ENTER LAST NAME" class="form-control" required=><br><br>
+<input type="integer" name="mobn" maxlength=10 placeholder="ENTER YOUR CONTACT NO." class="form-control"  required=><br><br>
+<input type="email" name="uname" placeholder="ENTER YOUR EMAILID" class="form-control" required=><br><br>
+<input type="password" name="pswrd" placeholder="ENTER YOUR PASSWORD" class="form-control" required=><br><br>
+<div class="create">
+<h1>Create Public Key</h1><br>
+<select name="keySelect">
+<option value="none" selected>Select</option>
+ <option value="new">Create new User key pair</option>
+</select><br>
+<h1>Enter Land Info</h1>
+</div>
+<input id="createName" type="text" placeholder="Enter Land name..."><br><br>
+<input id="createSubmit" type="button" value="Create"><br><br>
+<input type="submit" value="SUBMIT" class="form-control submit">
+</center>
+</form>
+</div>
+<script src="dist/bundle.js"></script>
+</body>
+</html>
+

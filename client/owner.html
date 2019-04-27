@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>CHAINLAND</title>
+</head>
+<body>
+<div class="logo">
+<img src="../images/logo.jpg">
+</div>
+<h1>CHAINLAND Transfer-Shell</h1>
+
+<h2>Select User</h2>
+<select name="keySelect">
+  <option value="none" selected>Select your public key...</option>
+</select>
+
+<h2>Transfer Land to another User</h2>
+<select name="assetSelect">
+  <option value="none" selected>Select 	Land location...</option>
+</select>
+<select name="transferSelect">
+  <option value="none" selected>Select Buyer...</option>
+</select>
+<input id="transferSubmit" type="button" value="Transfer">
+
+<h2>Land Title List</h2>
+<table>
+  <tr>
+    <th>Location</th>
+    <th>Owner</th>
+  </tr>
+  <tbody id="assetList"></tbody>
+</table>
+
+<script src="dist/bundle.js"></script>
+</body>
+</html>
