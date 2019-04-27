@@ -55,7 +55,7 @@ npm start
 
 ### Browser Client
 
-Start the client simply by opening `client/index.html` in any browser.
+Host the whole directory on a local apache server and open localhost/CHAINLAND in browser.
 
 ## Usage
 
@@ -65,20 +65,20 @@ Users are just public/private key-pairs stored in localStorage. Create one from
 the _"Select User"_ dropdown. You can use this same dropdown to switch between
 multiple users in localStorage.
 
-### Create an Asset
+### Create an Land Asset
 
 Simple type in the name of your asset under _"Create Asset"_ and click the
 create button. If you selected a user, you should see that asset appear in the
 list at the bottom.
 
-### Transfer an Asset
+### Transfer an Land
 
 Any asset you own can be transfered to another public key using the dropdowns
-under _"Transfer Asset"_. Note that the transfer must be accepted by that user
+under _"Transfer Land"_. Note that the transfer must be accepted by that user
 before it is finalized.
 
 ### Accept or Reject Transfers
 
-Any pending transfers for the selected user will appear under _"Accept Asset"_.
+Any pending transfers for the selected Admin will appear under _"Accept Asset"_.
 These can be accepted (with an immediate change in ownership) or rejected with
 the corresponding buttons.
