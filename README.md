@@ -60,7 +60,7 @@ Host the whole directory on a local apache server and open localhost/CHAINLAND i
 ## Usage
 
 ### Create a User
-
+Go to user/buyer login and there is 'new applicant?' option cilck on that for registering the new user.
 Users are just public/private key-pairs stored in localStorage. Create one from
 the _"Select User"_ dropdown. You can use this same dropdown to switch between
 multiple users in localStorage.
