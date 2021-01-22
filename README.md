@@ -1,5 +1,5 @@
-# CHAINLAND
-CHAINLAND is a Blockchain (Hyperledger sawtooth) based land registration prototype.
+# hyperledger
+... is a Blockchain (Hyperledger sawtooth) based land registration prototype.
 
 ## Installation
 
